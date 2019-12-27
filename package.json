@@ -27,7 +27,7 @@
     "ice-plugin-moment-locales": "^0.1.0"
   },
   "scripts": {
-    "start": "ice-scripts dev",
+    "start": "ice-scripts dev --host 192.168.1.126",
     "build": "ice-scripts build",
     "lint": "npm run eslint && npm run stylelint",
     "eslint": "eslint --cache --ext .js,.jsx ./",
